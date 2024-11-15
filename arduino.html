@@ -32,287 +32,149 @@
 
 <body>
 
-<div class="container">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="jumbotron">
+					<h1>
+						Proyectos con Arduino
+					</h1>
+					<p>
+						Arduino es una plataforma de hardware libre, basada en una placa con un microcontrolador y un entorno de desarrollo, diseñada para facilitar el uso de la electrónica en proyectos multidisciplinares.2 3
 	
-	<div class="row clearfix">
-	
-		<div class="col-md-10 column">
-			<div class="jumbotron">
-				<h1>
-					Arduino
-				</h1>
-				<p>
-					Proyecto de Electronica
-				</p>
-				<p>
-					Arduino es una plataforma de hardware libre, basada en una placa con un microcontrolador y un entorno de desarrollo, disenada para facilitar el uso de la electronica en proyectos multidisciplinares. El hardware consiste en una placa con un microcontrolador Atmel AVR y puertos de entrada/salida.
-				</p>
-				<p>
-					<a class="btn btn-primary btn-large" href="robotica.html">Robotica</a>
-				</p>
+						El hardware consiste en una placa con un microcontrolador Atmel AVR y puertos de entrada/salida.4 Los microcontroladores más usados son el Atmega168, Atmega328, Atmega1280, y Atmega8 por su sencillez y bajo coste que permiten el desarrollo de múltiples diseños. Por otro lado el software consiste en un entorno de desarrollo que implementa el lenguaje de programación Processing/Wiring y el cargador de arranque que es ejecutado en la placa.4
+					</p>
+						<p>
+						<a class="btn btn-primary btn-large" href="robotica.html">Robotica</a>
+					</p>
 				</div>
-			
-			<div class="row">
-				<div class="col-md-10">
-					<div class="thumbnail">
-						<h3>
-							Circuitos Electronicos(Fritzing)
-						</h3>
-						
-							<p>
-								Con esta herramienta, se puede disenr un circuito electronico de forma visual y amigable. En este grafico, se documenta, como se construyo el circuito de una oruga tamiya, para controlar los motores, usando un integrado L293D
-							</p>
-
-						<div class="caption">
-							
-							<p>
-								Circuito del montaje del controlador de motor L293D con Arduino, sobre un tractor.
-							</p>
-						
-						</div>
-						
-						<img width="400" height="300" src="images/diagramas/ArduinoL293D.png">
-						
-						<div class="caption">
-						
-							<p>
-								Circuito del controlador de motor L298N, con un Arduino UNO, y bluetooh. Montado sobre un tractor
-							</p>
-						
-							
-							
-						</div>
-						
-						<img width="400" height="300" src="images/diagramas/ArduinoL298N.png">
-					</div>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-10">
-					<div class="thumbnail">
-						
-						<div class="caption">
-							<h2>
-								Proyecto Robot con Piloto Autonomo 
-							</h2>
-							<p>
-								Oruga tamiya, para controlar los motores, usando un integrado L293D, se requiere Sensor Ultrasonico, para que pueda sensar obstaculos y controlar movimiento sin intervencion humana				</p>
-							
-						</div>
-						
-						<img alt="300x200" src="images/general/ultrasonic.jpg">
-						
-					</div>
-					
-					<a class="btn btn-primary" href="arduinoPrototipo1.html">Video</a> 
-					
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-10">
-					<div class="thumbnail">
-						
-						<div class="caption">
-							<h2>
-								Proyecto Arduino Controlando Robot via Bluetooth
-							</h2>
-							<p>
-								Oruga tamiya, para controlar los motores, usando un integrado L293D, igual que el prototipo 1, pero ya no se requiere Sensor Ultrasonico, sino una antena Bluetooth, para controlar movimiento desde cualaquier dispositivo movil que tenga bluetooh
-							</p>
-							
-						</div>
-						
-						<img alt="300x200" src="images/general/hc06.jpg">
-						
-					</div>
-					
-					<a class="btn btn-primary" href="ArduinoBluetooh.html">Video</a> 
-					
-				</div>
-			</div>
-			</div>
+				
 				<div class="row">
-				<div class="col-md-10">
-					<div class="thumbnail">
-						
-						<div class="caption">
-							<h2>
-								Proyecto Arduino Controlando LED via Wifi con Modulo CC3000 WiFi Breakout con Antena Integrada, Arduino MEGA y Display
-							</h2>
-							<p>
-								Encendido y Apagado de LED, se utiliza una antena Wifi CC3000, para controlar el encendido desde un browser como Google Chrome, Internet Explorer, etc. Usando unos scripts, hechos con PHP, HTML y JQuery.
-							</p>
-							
+					<div class="col-md-6">
+						<div class="thumbnail">
+							<img alt="300x200" src="images/general/ultrasonic.jpg">
+							<div class="caption">
+								<h3>
+									Robot Autonomo
+								</h3>
+								<p>
+									Oruga tamiya, para controlar los motores, usando un integrado L293D, se requiere Sensor Ultrasonico, para que pueda sensar obstaculos
+									y controlar movimiento sin intervencion humana
+								</p>
+								<p>
+									<a class="btn btn-primary" href="arduinoPrototipo1.html">Mas</a> 
+								</p>
+							</div>
 						</div>
-						
-						<img witdh="150" height="150" src="images/general/CC3000.jpg">
-						<img witdh="300" height="300" src="images/general/ledwifi.jpg">
-						<br>
-						<h2>Desde un browser</h2>
-						<br>
-						<img alt="300x200" src="images/general/web_cc3000.png">
 					</div>
-					
-					<a class="btn btn-primary" href="#">Video</a> 
-					
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-10">
-					<div class="thumbnail">
-						
-						<div class="caption">
-							<h2>
-								Control de Led via Comando de voz
-							</h2>
-							<p>
-								Encendido y Apagado de LED, se utiliza Arduino UNO, con bluetooh, para controlar el encendido desde una app, Construida con App Inventor (MIT)
-							</p>
-							<img witdh="150" height="150" src="images/proyectos/leduino.png">
-						</div>
-						<br>
-					</div>
-					<br>
-					<a class="btn btn-primary" href="ArduinoVoice.html">Video</a> 
-					
-				</div>
-			</div>
-			
-			
-		
-	</div>
 	
-
-
-<div class="container-fluid">
-	<div class="row-fluid">
-			
-			<div class="thumbnail">
-						
-				<div class="caption">
-				<h1>
-					Proyecto Robotino Prototipo 3!
-                    Con Fuente de Alimentacion LIPO de 2.2A y 7,4V
-				</h1>
-        	</div>
-			
-			<img witdh="400" height="400" src="images/carro/DSCN2347.JPG">
-			<img witdh="400" height="400" src="images/carro/DSCN2348.JPG">
-			<img witdh="400" height="400" src="images/carro/DSCN2349.JPG">
-			<img witdh="400" height="400" src="images/carro/DSCN2350.JPG">
-			<img witdh="400" height="400" src="images/carro/DSCN2351.JPG">
-        </div>
-   </div>
-</div>
-
-
-<div class="container-fluid">
-	<div class="row-fluid">
-			
-			<div class="thumbnail">
-						
-				<div class="caption">
-				<h1>
-					Proyecto Dia de la Ciencia GWMK!
-                    
-				</h1>
-        	</div>
-			
-			<img witdh="400" height="400" src="images/brazo/brazo01.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo02.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo03.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo04.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo05.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo06.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo07.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo08.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo09.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo10.JPG">
-			<img witdh="400" height="400" src="images/brazo/brazo11.JPG">
-			<img witdh="400" height="400" src="images/brazo/proyecto01.JPG">
-			
-			
-			<div class="row">
-			
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<img alt="300x200" src="images/general/robotica01.jpg">
-						<div class="caption">
-							<h3>
-								Pagina de Control del Proyecto del Brazo Robotico
-							</h3>
-							<p>
-								Esta es la pagina desde se interactua y controlan dispositivos de entrada y salida.
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Mas</a> 
-							</p>
+					<div class="col-md-6">
+						<div class="thumbnail">
+							<img alt="300x200" src="images/general/hc06.jpg">
+							<div class="caption">
+								<h3>
+									Robot controlado con Bluetooth
+								</h3>
+								<p>
+									Oruga tamiya, para controlar los motores, usando un integrado L293D, igual que el prototipo 1, pero ya no se requiere Sensor Ultrasonico, sino una antena Bluetooth, para controlar movimiento desde cualaquier dispositivo movil que tenga bluetooh
+								</p>
+								<p>
+									<a class="btn btn-primary" href="ArduinoBluetooh.html">Proyectos</a> 
+								</p>
+							</div>
 						</div>
 					</div>
-				</div>
+	
+					<div class="col-md-6">
+						<div class="thumbnail">
+							<img alt="300x200" src="images/general/raspberry-pi-3-b.jpg">
+							<div class="caption">
+								<h3>
+									Arduino Controlando LED via Wifi con Modulo CC3000 WiFi Breakout con Antena Integrada, Arduino MEGA y Display
+								</h3>
+								<p>
+									Encendido y Apagado de LED, se utiliza una antena Wifi CC3000, para controlar el encendido desde un browser como Google Chrome, Internet Explorer, etc. Usando unos scripts, hechos con PHP, HTML y JQuery.
+								</p>
+								<p>
+									<a class="btn btn-primary" href="raspberry.html">Mas</a> 
+								</p>
+
+								<img witdh="150" height="150" src="images/general/CC3000.jpg">
+								<img witdh="300" height="300" src="images/general/ledwifi.jpg">
+								<br>
+								<h2>Desde un browser</h2>
+								<br>
+								<img alt="300x200" src="images/general/web_cc3000.png">
+
+							</div>
+
+							<a class="btn btn-primary" href="#">Video</a> 
+
+						</div>
+					</div>
 				
-				
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<img alt="300x200" src="images/general/robotica02.jpg">
-						<div class="caption">
-							<h3>
-								Documento que explica el Proyecto
-							</h3>
-							<p>
-								Este documento explica con mayor detalle el Proyecto presentado el dia de la Ciencia.
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Mas</a> 
-							</p>
+					<div class="col-md-6">
+						<div class="thumbnail">
+							<img alt="300x200" src="images/proyectos/leduino.png">
+							<div class="caption">
+								<h3>
+									Control de Led via Comando de voz
+								</h3>
+								<p>
+									Encendido y Apagado de LED, se utiliza Arduino UNO, con bluetooh, para controlar el encendido desde una app, Construida con App Inventor (MIT)
+								</p>
+
+							</div>
+
+							<br>
+							<a class="btn btn-primary" href="ArduinoVoice.html">Video</a> 
+							
 						</div>
 					</div>
-				</div>
-			
-			
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<img alt="300x200" src="images/general/robotica03.jpg">
-						<div class="caption">
-							<h3>
-								Control Web de un vehiculo
-							</h3>
-							<p>
-								Esta es la interfaz para control de un vehiculo via http
-							</p>
-							<p>
-								<a class="btn btn-primary" href="orugawifi/robot.html">Mas</a> 
-							</p>
+
+					<div class="col-md-6">
+						<div class="thumbnail">
+							<img alt="300x200" src="images/proyectos/leduino.png">
+							<div class="caption">
+								<h3>
+									Robotino
+								</h3>
+								<p>
+									Encendido 
+								</p>
+
+							</div>
+
+							<br>
+							<a class="btn btn-primary" href="ArduinoVoice.html">Video</a> 
+							
 						</div>
 					</div>
+
+					<div class="col-md-6">
+						<div class="thumbnail">
+							<img alt="300x200" src="images/proyectos/leduino.png">
+							<div class="caption">
+								<h3>
+									Brazo Robotico Carton Dia de la Ciencia GWMK
+								</h3>
+								<p>
+									Encendido(MIT)
+								</p>
+
+							</div>
+
+							<br>
+							<a class="btn btn-primary" href="ArduinoVoice.html">Video</a> 
+							
+						</div>
+					</div>
+					
 				</div>
 			</div>
-			
-			
-			<p>
-				<h3>Video del Proyecto</h3>
-    		</p>
-							
-                    <div id="videosgw">
-                        <object width="840" height="560">
-                          <param name="movie" value="https://www.youtube.com/v/Q9O82_-DLB0?version=3"></param>
-                          <param name="allowFullScreen" value="true"></param>
-                          <param name="allowScriptAccess" value="always"></param>
-                          <embed src="https://www.youtube.com/v/Q9O82_-DLB0?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="840" height="560"></embed>
+		</div>
+	</div>
 
-                        </object>
-                    </div>
-			
-			
-			
-        </div>
-   </div>
-</div>
-
-</div>
 
 </body>
 
