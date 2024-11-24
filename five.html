@@ -19,16 +19,7 @@
 	<script type="text/javascript" src="scripts.js"></script>
       
       <style>
-/*
-          html { 
-  background: url(http://localhost:8080/estilo/images/logoarduino.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-*/
-          
+         
           
   #eq > span {
     height:120px; float:left; margin:15px
@@ -110,27 +101,27 @@
 		<div class="col-md-12 column">
 			<div class="jumbotron">
 				<h1>Gimnasio William Mackinley</h1>
-                <h2>Samuel Roa Octavo B</h2>
-                
+          <h2>Samuel Roa Octavo B</h2>
 				<div class="container">
-					<img alt="140x140" src="images/dotnet.jpg" />
-				</div>
-				<div>
-                    <h1>Proyecto Robotica</h1>                   
-					<h2>
-						Esta construido usando HTML5, Bootstrap, JQuery, NodeJS y Johnny Five.
-					</h2>
 
-                </div>
+          <img alt="140x140" src="images/general/dotnet.jpg" />
+				</div>
 
 		  </div>
-			
+			<div>
+        <h1>Proyecto Robotica</h1>                   
+        <h2>
+        Esta construido usando HTML5, Bootstrap, JQuery, NodeJS y Johnny Five.
+        </h2>
+        <p>
+          <a class="btn btn-primary btn-large" href="gwmk.html">Proyecto</a>
+        </p>
+    </div>
 	</div>
 		
 </div>
 	
-<!--      <img src="http://localhost:8080/estilo/images/mega.jpg"  >-->
-      <div class="fullscreen background" style="background-image:url('http://localhost:8080/estilo/images/mega.jpg');" data-img-width="1600" data-img-height="1064">
+<div class="fullscreen background" style="background-image:url('http://localhost:8080/estilo/images/mega.jpg');" data-img-width="1600" data-img-height="1064">
 
 <div class="container">
         
@@ -169,17 +160,12 @@
     </div>
     </div>
       
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
-     <script src="http://localhost:8080/estilo/js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-<!--    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
-      <script src="http://localhost:8080/estilo/js/bootstrap.min.js"></script>
+    <script src="http://localhost:8080/estilo/js/jquery.min.js"></script>
+    <script src="http://localhost:8080/estilo/js/bootstrap.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script>
 
-
-      var socket = io.connect('http://localhost');
+     var socket = io.connect('http://localhost');
 
       socket.on('news', function (data) {
         console.log(data);
@@ -244,16 +230,8 @@
         </tr>
     </table>
     
-    
-
-    
 </div>
-<!--
-        <p class="ui-state-default ui-corner-all" style="padding:4px;margin-top:4em;">
-          <span class="ui-icon ui-icon-signal" style="float:left; margin:-2px 5px 0 0;"></span>
-          Equalizador de LEDs
-        </p>
--->
+
     <h4>Equalizador de LEDs</h4>
 <div id="eq">
 
@@ -269,75 +247,5 @@
  </div>
 </div> 
 
-<div class="row">
-    <div class="col-md-4">
-        <div class="thumbnail">
-		  <div class="caption">
-              <h4>Equalizador de Sonidos</h4>
-              <div id="eq">
-
-                  <span>88</span>
-                  <span>77</span>
-                  <span>55</span>
-                  <span>33</span>
-                  <span>40</span>
-                  <span>45</span>
-                  <span>70</span>
-              </div>
-            
-              <a class="btn primary" href="arduino.html">Aprende</a> 
-            
-		</div>
-	</div>
-
-
-    <div class="col-md-6">
-<!--        <div class="thumbnail">-->
-<!--            <div class="caption">-->
-                <span class="label label-primary">Aceleracion de Motor DC (PWM)</span>
-                            
-                <div id="master5" style="width:260px; margin:15px;"></div>
-            
-            
-<!--		    </div>-->
-            <a class="btn btn-primary" href="arduino.html">Aprende mas</a> 
-
-	   </div>
-    </div>
-</div>
-
-<br>
-    
-<div class="row">
-<!--	<div class="row clearfix">-->
-		<div class="col-md-12 column">
-<!--			<div class="jumbotron">-->
-				                
-				<div class="container">
-					
-				</div>
-				<div>
-                    <h1>Que son estas tecnologias?</h1>                   
-					
-
-                </div>
-
-<!--		  </div>-->
-			
-<!--	</div>-->
-		
-</div>
-	
-<table>
-<tr>
-    <td><img alt="140x140" src="images/dotnet.jpg" /></td><td><p>HTML5</p></p></td>
-    <td><img alt="140x140" src="images/dotnet.jpg" /></td><td><p>Bootstrap</p></td>
-    <td><img alt="140x140" src="images/dotnet.jpg" /></td><td><p>NodeJS</p></td>
-    <td><img alt="140x140" src="images/dotnet.jpg" /></td><td><p>Johnny Five</p></td>
-</tr>    
-     
-</table>
-    
-    
 </body>
 </html>
